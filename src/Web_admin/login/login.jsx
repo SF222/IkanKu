@@ -15,7 +15,7 @@ const Login = () => {
   const handleLogin = (e) => {
     e.preventDefault();
 
-    if (username === "AndiSembiring" && password === "Andi0000") {
+    if (username === "AndiSembiring" && password === "AndiSembiring") {
       navigate("/DashboardAdmin");
     } else {
       setErrorMessage("Invalid username or password!");
