@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Halaman_satu from "./Web_publik/Halaman_satu";
 import Halaman_dua from "./Web_publik/Halaman_dua";
 import Halaman_tiga from "./Web_publik/Halaman_tiga";
-import Halaman_empat from "./Web_publik/Halaman_empat";
+import Halaman_empat from "./Web_publik/Halaman_Empat";
 import Halaman_lima from "./Web_publik/Halaman_lima";
 // publik end
 
