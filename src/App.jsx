@@ -2,25 +2,25 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // publik star
-import Halaman_satu from "./Web_publik/Halaman_satu";
-import Halaman_dua from "./Web_publik/Halaman_dua";
-import Halaman_tiga from "./Web_publik/Halaman_tiga";
-import Halaman_empat from "./Web_publik/Halaman_Empat";
-import Halaman_lima from "./Web_publik/Halaman_lima";
+import Halaman_satu from "../Web_publik/Halaman_satu";
+import Halaman_dua from "../Web_publik/Halaman_dua";
+import Halaman_tiga from "../Web_publik/Halaman_tiga";
+import Halaman_empat from "../Web_publik/Halaman_Empat";
+import Halaman_lima from "../Web_publik/Halaman_lima";
 // publik end
 
 // publik star artikel
 
-import Klikhal_101 from "./Web_klik_Artikel/klikhal_101";
-import Klikhal_106 from "./Web_klik_Artikel/klikhal_106";
-import Klikhal_108 from "./Web_klik_Artikel/Klikhal_108";
+import Klikhal_101 from "../Web_klik_Artikel/klikhal_101";
+import Klikhal_106 from "../Web_klik_Artikel/klikhal_106";
+import Klikhal_108 from "../Web_klik_Artikel/klikhal_108";
 
 // publik end artikel
 
 // admin star
-import Login from "./Web_admin/login";
-import DashboardAdmin from "./Web_admin/dashboard_admin";
-import Tambah_artikel from "./Web_admin/Tambah_artikel";
+import Login from "../Web_admin/login";
+import DashboardAdmin from "../Web_admin/dashboard_admin";
+import Tambah_artikel from "../Web_admin/Tambah_artikel";
 // adnmin end
 
 function App() {
